@@ -52,7 +52,7 @@ import cse4 from "./Studymaterial/cse4";
 import ece4 from "./Studymaterial/ece4";
 
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 
 function App() {
   return (
