@@ -1,0 +1,32 @@
+#smtable{
+   width: 60%;
+   height: 150%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border: 2px solid #264653;
+  color: black;
+  margin-left: 2%;
+}
+#sm{
+
+  margin-left: 25%;
+  padding-top: 8%;
+}
+#smtable  {
+  border-width: 2px;
+  border: 2px solid #023047;
+  padding: 3px;
+}
+#smtable tr{
+    border: 1px dashed #6c757d;
+}
+#smtable td {
+    font-size: 100%;
+    color: #011627;
+    font-weight: 600;
+}
+a{
+    color: #0096c7;
+}
+
+

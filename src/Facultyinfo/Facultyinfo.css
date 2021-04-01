@@ -1,0 +1,141 @@
+/* class time table css */
+#Table {
+  width: 90%;
+
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border: 2px solid #264653;
+  color: black;
+  margin-left: 2%;
+}
+#note p{
+    font-weight: 600;
+    margin-top: 1%;
+
+}
+#yoga{
+    color: #dc2f02;
+}
+#note{
+    margin-left: 4%;
+    
+}
+#tt {
+  margin-left: 18%;
+  padding-top: 4%;
+}
+#bname span {
+  padding-left: 2%;
+  font-size: medium;
+  font-weight: 700;
+  color: #1d3557;
+}
+
+#elective{
+    background-color: #a8dadc;
+    font-weight: 500;
+}
+#bname {
+  margin-bottom: 2%;
+}
+th {
+  height: 60px;
+  color: #14213d;
+  font-weight: 700;
+}
+td {
+  height: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+td p{
+    text-align: center;
+}
+
+#Table td,
+#Table th {
+  border-width: 2px;
+  border: 2px solid #264653;
+  padding: 3px;
+}
+
+/* class time table css ends */
+
+#container {
+  display: flex;
+  border: 1px solid #adb5bd;
+  border-radius: 5px;
+  margin-left: 12%;
+  margin-right: 12%;
+  height: 120px;
+  margin-top: 3%;
+}
+#Img {
+  margin-left: 2%;
+  width: auto;
+}
+#content {
+  margin-left: 25%;
+}
+
+h3 {
+  color: #023047;
+  margin-bottom: 4px;
+  text-align: left;
+}
+p {
+  margin: 0px;
+  text-align: left;
+  font-size: medium;
+  color: #0b090a;
+}
+.ec {
+  text-align: left;
+  margin-left: 5px;
+  font-weight: 500;
+}
+#details {
+  margin-left: 8%;
+  padding-top: 2%;
+}
+
+.email {
+  margin-bottom: 3%;
+}
+#coursebox {
+  float: left;
+  width: 50px;
+
+  height: 360px;
+  margin-left: 2%;
+  width: 210px;
+  text-align: center;
+}
+
+.course-cse {
+  border: 1px solid #6c757d;
+  height: 45px;
+  text-align: center;
+  padding-left: 10%;
+  background-color: #99c1de;
+}
+#sideBox a {
+  text-decoration: none;
+}
+
+.course {
+  border: 1px solid #6c757d;
+  background-color: #99c1de;
+  height: 40px;
+  text-align: center;
+  padding-left: 10%;
+  padding-top: 8px;
+}
+.course p {
+  font-size: 18px;
+  font-family: serif;
+}
+.course-cse p {
+  font-size: 18px;
+  font-family: serif;
+}

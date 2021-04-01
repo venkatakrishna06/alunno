@@ -1,0 +1,40 @@
+#classtt{
+    float: left;
+    width: 50px;
+   margin-top: 8% !important;
+    height:360px;
+    margin-left: 2%;
+    width: 210px;
+    text-align: center;
+}
+
+.course-cse{
+    border: 1px solid #6c757d;
+    height: 45px;
+    text-align: center;
+    padding-left:10%;
+    background-color: #99c1de;
+ 
+}
+#classttsideBox a{
+    text-decoration: none;
+   
+    
+}
+
+.course{
+    border: 1px solid #6c757d;
+    background-color: #99c1de;
+    height: 40px;
+    text-align: center;
+    padding-left:10%;
+    padding-top: 8px;
+}
+.course p{
+    font-size: 18px;
+    font-family:serif;
+}
+.course-cse p{
+    font-size: 18px;
+    font-family:serif;
+}
