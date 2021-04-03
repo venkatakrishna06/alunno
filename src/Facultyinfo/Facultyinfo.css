@@ -1,7 +1,6 @@
 /* class time table css */
 #Table {
   width: 90%;
-
   background-color: #ffffff;
   border-collapse: collapse;
   border: 2px solid #264653;
@@ -65,10 +64,10 @@ td p{
   display: flex;
   border: 1px solid #adb5bd;
   border-radius: 5px;
-  margin-left: 12%;
+  margin-left: 15%;
   margin-right: 12%;
   height: 120px;
-  margin-top: 3%;
+ margin-top: 2%;
 }
 #Img {
   margin-left: 2%;
