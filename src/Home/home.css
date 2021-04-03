@@ -1,27 +1,57 @@
+
+
 .navBar {
   position: fixed;
   top: 0;
   width: 100%;
   margin: 0px;
-    background-color: #f6e7cb;
+    background-color: #f6e7cb !important;
   padding-bottom: 10px;
   z-index: 99;
+  
 }
 li {
   display: inline;
-  margin-left: 30px;
+ background-color: #f6e7cb !important;
   float: left;
-  margin-left: 8%;
+  margin-left: 7%;
   margin-top: 1%;
   font-size: 140%;
 }
 li a{
     color: black;
     font-weight: 600;
+    background-color: #f6e7cb !important;
     font-family: 'Times New Roman', Times, serif;
 }
-img {
+#logo {
     background-color: black;
     height: 40px;
     
+}
+#imgBox{
+    border: 1px ridge #adb5bd;
+    width: 98%;
+    height: 250px;
+    margin-left: 1%;
+    margin-top: 6%;
+    
+}
+
+.ann{
+    display:inline-block;
+     border: 1px ridge #adb5bd;
+    width: 46%;
+    margin-top: 1%;
+    padding-left: 2%;
+}
+#sem2{
+    float: right;
+    margin-right: 1%;
+    
+}
+#sem4{
+    float: left;
+    margin-left: 1%;
+    padding-left: 2%;
 }
