@@ -7,6 +7,7 @@ import "./cse.css";
 function cse({ cserole, csename, csequalification, cseemail, csecontact }) {
   return (
     <div className="cse">
+      <div id="infocontainer">
       <div id="cseContainer">
         <div id="factImg">
           <img src="#" alt="photo" />
@@ -28,7 +29,8 @@ function cse({ cserole, csename, csequalification, cseemail, csecontact }) {
         </div>
           </div>
           <br></br>
-    </div>
+      </div>
+      </div>
     
   );
 }

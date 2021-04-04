@@ -6,14 +6,14 @@ function Assignments() {
             <div id="classtt">
                 <div id="classttsideBox">
                     <a href="">
-                        <div className="course-cse">
+                        <div className="course">
                             <p>
                                 CSE-A (SEM 4)
                             </p>
                         </div>
                     </a>
                     <a href="">
-                        <div className="course-cse">
+                        <div className="course">
                             <p>
                                 CSE-B (SEM 4)
                             </p>

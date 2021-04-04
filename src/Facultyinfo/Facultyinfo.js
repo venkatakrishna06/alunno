@@ -1,4 +1,5 @@
 import React from "react";
+import Sidebar from "../Sidebar";
 import "./Facultyinfo.css";
 
 
@@ -6,35 +7,17 @@ import "./Facultyinfo.css";
 
 function Facultyinfo() {
   return (
-    <div className="Facultyinfo">
-      <div id="container">
-        <div id="Img">
-          <img src="#" alt="photo" />
-        </div>
-        <div id="content">
-          <div>
-            <h3> Dr. P. Shankar</h3>
-            <p>Principal, School of Engineering,</p>
-            <p>Qualification : Ph.D., Indian Institute of Science</p>
-          </div>
-        </div>
-        <div id="details">
-          <div className="email">
-            <p className="ec">Email : p_shankar@ch.amrita.edu </p>
-          </div>
-          <div className="email">
-            <p className="ec"> Mobile : 1234567890</p>
-          </div>
-        </div>
-      </div>
-      <br></br>
-
-      <div id="coursebox">
+    
+    <div >
+      <Sidebar />
+      <h1>Facultyinfo</h1>
+    <div id="coursebox">
+      
         <div id="sideBox">
           <a href="/cse">
-            <div className="course-cse">
+            <div className="course">
               <p>
-                Computer Science &<br></br>Engineering
+                Computer Science Engineering
               </p>
             </div>
           </a>
@@ -77,6 +60,7 @@ function Facultyinfo() {
         </div>
       </div>
     </div>
+   
   );
 }
 export default Facultyinfo;

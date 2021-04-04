@@ -1,10 +1,19 @@
+#infocontainer{
+    margin-top: 2%;
+   
+
+}
+
+
 #cseContainer{
     display: flex;
-   border: 1px solid    #adb5bd;
+   border: 1px solid #adb5bd;
    border-radius: 5px;
-    margin-left: 18%;
-   margin-right: 12%;
-   height: 120px;
+    margin-left: 30%;
+   
+   height: 120%;
+   margin-top: 2%;
+
 }
    
 #factImg{

@@ -1,19 +1,23 @@
 import React from "react";
+import Sidebar from "../Sidebar";
 import "./classtt.css";
 function Classtt() {
     return (
         <div className-="Classtt">
+            <Sidebar />
+            <h1>Class TT</h1>
             <div id="classtt">
+                
                 <div id="classttsideBox">
                     <a href="/cseAtt">
-                        <div className="course-cse">
+                        <div className="course">
                             <p>
                                 CSE-A (SEM 4)
                             </p>
                         </div>
                     </a>
                     <a href="/cseBtt">
-                        <div className="course-cse">
+                        <div className="course">
                             <p>
                                 CSE-B (SEM 4)
                             </p>

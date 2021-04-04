@@ -1,13 +1,15 @@
 import React from "react";
+import Sidebar from "../Sidebar";
 
 function Studymaterial() {
     return (
         <div className="studymaterial">
+            <Sidebar />
             <div id="classtt">
             <div id="classttsideBox">
                 
                     <a href="/studymaterial/cse4">
-                    <div className="course-cse">
+                    <div className="course">
                         <p>
                             CSE (SEM 4)
                             </p>

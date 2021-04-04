@@ -1,11 +1,11 @@
 /* class time table css */
 #Table {
-  width: 90%;
+  width: 80%;
   background-color: #ffffff;
   border-collapse: collapse;
   border: 2px solid #264653;
   color: black;
-  margin-left: 2%;
+  margin-left: 15%;
 }
 #note p{
     font-weight: 600;
@@ -16,7 +16,7 @@
     color: #dc2f02;
 }
 #note{
-    margin-left: 4%;
+    margin-left: 14%;
     
 }
 #tt {
@@ -57,16 +57,16 @@ td p{
   border: 2px solid #264653;
   padding: 3px;
 }
-
 /* class time table css ends */
 
+/* from here facultyinfo.js css */
 #container {
   display: flex;
   border: 1px solid #adb5bd;
   border-radius: 5px;
   margin-left: 15%;
   margin-right: 12%;
-  height: 120px;
+  height: 150px;
  margin-top: 2%;
 }
 #Img {
@@ -103,32 +103,31 @@ p {
 }
 #coursebox {
   float: left;
-  width: 50px;
+  width: 100%;
 
   height: 360px;
-  margin-left: 2%;
-  width: 210px;
+  margin-left: 205px;
+  width: auto;
   text-align: center;
+  margin-top: 4%;
 }
 
-.course-cse {
-  border: 1px solid #6c757d;
-  height: 45px;
-  text-align: center;
-  padding-left: 10%;
-  background-color: #99c1de;
-}
+
 #sideBox a {
   text-decoration: none;
 }
 
 .course {
   border: 1px solid #6c757d;
+  
   background-color: #99c1de;
-  height: 40px;
+  height: 100%;
+  width: 100%;
   text-align: center;
-  padding-left: 10%;
-  padding-top: 8px;
+  
+  padding-top: 8%;
+  text-align: center;
+  
 }
 .course p {
   font-size: 18px;

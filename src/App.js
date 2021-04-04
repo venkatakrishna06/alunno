@@ -52,35 +52,62 @@ import cse4 from "./Studymaterial/cse4";
 import ece4 from "./Studymaterial/ece4";
 
 
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App" id="outer-container">
-      <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
+
 
       <Router>
         <div id="page-wrap">
-          <Route path="/" exact component={Home} />
-          <Route path="/Facultyinfo" exact component={Facultyinfo} />
-          <Route path="/Classtt" exact component={Classtt} />
-          <Route path="/Assignments" exact component={Assignments} />
-          <Route path="/Accalender" exact component={Accalender } />
+          <div>
+            <Route path="/" exact component={Home} />
+          </div>
+          <div>
+            <Route path="/Facultyinfo" exact component={Sidebar} />
+            <Route path="/Facultyinfo" exact component={Facultyinfo} />
+          </div>
+          <div>
+            <Route path="/Classtt" exact component={Sidebar} />
+            <Route path="/Classtt" exact component={Classtt} />
+          </div>
+          <div>
+            <Route path="/Assignments" exact component={Sidebar} />
+            <Route path="/Assignments" exact component={Assignments} />
+          </div>
+          <div>
+            <Route path="/Accalender" exact component={Sidebar} />
+            <Route path="/Accalender" exact component={Accalender} />
+          </div><div>
+            <Route path="/Examschedule" exact component={Sidebar} />
           <Route path="/Examschedule" exact component={Examschedule} />
-          <Route path="/Studymaterial" exact component={Studymaterial} />
-          <Route path="/Announcements" exact component={Announcements} />
-          <Route path="/Achievements" exact component={Achievements} />
-
+          </div><div>
+            <Route path="/Studymaterial" exact component={Sidebar} />
+            <Route path="/Studymaterial" exact component={Studymaterial} />
+          </div>
+          <div>
+            <Route path="/Announcements" exact component={Sidebar} />
+            <Route path="/Announcements" exact component={Announcements} />
+          </div>
+          <div>
+            <Route path="/Achievements" exact component={Sidebar} />
+            <Route path="/Achievements" exact component={Achievements} />
+          </div>
         </div>
       </Router>
 
-      
+
       {/* Faculty info */}
       <Router>
         <div>
+       
+        <div>
           <Route path="/cse" component={Facultyinfo} />
           <Route path="/cse" component={Facultyusestate} />
-          <Route path="/cse" component={cse} />
+           
+         
+          <Route path="/cse" component={cse} /> 
         </div>
         <div>
           <Route path="/ece" component={Facultyinfo} />
@@ -121,7 +148,8 @@ function App() {
           <Route path="/cultural" component={Facultyinfo} />
           <Route path="/cultural" component={Culturalusestate} />
           <Route path="/cultural" component={cultural} />
-        </div>
+          </div>
+          </div>
       </Router>
 
       {/* classtt */}
@@ -166,7 +194,7 @@ function App() {
         <div>
           <Route path="/studymaterial/cse4" component={Studymaterial} />
           <Route path="/studymaterial/cse4" component={cse4} />
-  
+
         </div>
         <div>
           <Route path="/studymaterial/ece4" component={Studymaterial} />
@@ -210,7 +238,7 @@ function App() {
         </div>
       </Router>
 
-    </div>
+    </div >
   );
 }
 
