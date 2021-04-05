@@ -195,6 +195,10 @@ function App() {
           <Route path="/ece2tt"  />
         </div>
         <div>
+          <Route path="/cce2tt" component={Classtt} />
+          <Route path="/cce2tt" />
+        </div>
+        <div>
           <Route path="/mech2tt" component={Classtt} />
           <Route path="/mech2tt" component={mech2tt} />
         </div>

@@ -1,25 +1,15 @@
-#infocontainer{
-    margin-top: 2%;
-   
-
-}
-
-
 #cseContainer{
     display: flex;
    border: 1px solid #adb5bd;
    border-radius: 5px;
     margin-left: 30%;
-   
    height: 120%;
-   margin-top: 2%;
-
+   margin-top: 0%;
 }
    
 Img{
     margin-left: 4%;
-    width:60%;
-    
+    width:60%;  
 }
 #cseContent{
     margin-left: 2%;
