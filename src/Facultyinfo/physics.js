@@ -2,12 +2,12 @@ import React from "react";
 import "./Facultyinfo.css";
 import "./cse.css";
 
-function physics({ physicsrole, physicsname, physicsqualification, physicsemail, physicscontact }) {
+function physics({ physicspics,physicsrole, physicsname, physicsqualification, physicsemail, physicscontact }) {
     return (
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src="#" alt="photo" />
+                    <img src={physicspics} alt="photo" />
                 </div>
                 <div id="cseContent">
                     <div>

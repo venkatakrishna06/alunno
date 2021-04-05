@@ -2,12 +2,12 @@ import React from "react";
 import "./Facultyinfo.css";
 import "./cse.css";
 
-function chem({ chemrole, chemname, chemqualification, chememail, chemcontact }) {
+function chem({ chempics,chemrole, chemname, chemqualification, chememail, chemcontact }) {
     return (
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src="#" alt="photo" />
+                    <img src={chempics} alt="photo" />
                 </div>
                 <div id="cseContent">
                     <div>

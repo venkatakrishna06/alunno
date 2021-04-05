@@ -67,10 +67,13 @@ function App() {
           <div>
             <Route path="/Facultyinfo" exact component={Sidebar} />
             <Route path="/Facultyinfo" exact component={Facultyinfo} />
+            <Route path="/Facultyinfo" component={Facultyusestate} />
+            <Route path="/Facultyinfo" component={cse} />
           </div>
           <div>
             <Route path="/Classtt" exact component={Sidebar} />
             <Route path="/Classtt" exact component={Classtt} />
+            <Route path="/classtt" component={cseAtt} />
           </div>
           <div>
             <Route path="/Assignments" exact component={Sidebar} />
@@ -103,51 +106,49 @@ function App() {
         <div>
        
         <div>
-          <Route path="/cse" component={Facultyinfo} />
-          <Route path="/cse" component={Facultyusestate} />
-           
-         
-          <Route path="/cse" component={cse} /> 
+            <Route path="/cse" component={Facultyinfo} />
+            <Route path="/cse" component={Facultyusestate} />
+            <Route path="/cse" component={cse} />
         </div>
         <div>
-          <Route path="/ece" component={Facultyinfo} />
-          <Route path="/ece" component={Eceusestate} />
-          <Route path="/ece" component={ece} />
+            <Route path="/ece" component={Facultyinfo} />
+            <Route path="/ece" component={Eceusestate} />
+            <Route path="/ece" component={ece} />
         </div>
         <div>
-          <Route path="/mech" component={Facultyinfo} />
-          <Route path="/mech" component={Mechusestate} />
-          <Route path="/mech" component={mech} />
+            <Route path="/mech" component={Facultyinfo} />
+            <Route path="/mech" component={Mechusestate} />
+            <Route path="/mech" component={mech} />
         </div>
 
         <div>
-          <Route path="/maths" component={Facultyinfo} />
-          <Route path="/maths" component={Mathsusestate} />
-          <Route path="/maths" component={maths} />
+            <Route path="/maths" component={Facultyinfo} />
+            <Route path="/maths" component={Mathsusestate} />
+            <Route path="/maths" component={maths} />
         </div>
 
         <div>
-          <Route path="/english" component={Facultyinfo} />
-          <Route path="/english" component={Englishusestate} />
-          <Route path="/english" component={english} />
+            <Route path="/english" component={Facultyinfo} />
+            <Route path="/english" component={Englishusestate} />
+            <Route path="/english" component={english} />
         </div>
 
         <div>
-          <Route path="/physics" component={Facultyinfo} />
-          <Route path="/physics" component={Physicsusestate} />
-          <Route path="/physics" component={physics} />
+            <Route path="/physics" component={Facultyinfo} />
+            <Route path="/physics" component={Physicsusestate} />
+            <Route path="/physics" component={physics} />
         </div>
 
         <div>
-          <Route path="/chem" component={Facultyinfo} />
-          <Route path="/chem" component={Chemusestate} />
-          <Route path="/chem" component={chem} />
+            <Route path="/chem" component={Facultyinfo} />
+            <Route path="/chem" component={Chemusestate} />
+            <Route path="/chem" component={chem} />
         </div>
 
         <div>
-          <Route path="/cultural" component={Facultyinfo} />
-          <Route path="/cultural" component={Culturalusestate} />
-          <Route path="/cultural" component={cultural} />
+            <Route path="/cultural" component={Facultyinfo} />
+            <Route path="/cultural" component={Culturalusestate} />
+            <Route path="/cultural" component={cultural} />
           </div>
           </div>
       </Router>
@@ -165,7 +166,13 @@ function App() {
         <div>
           <Route path="/ecett" component={Classtt} />
           <Route path="/ecett" component={ecett} />
+        </div><div>
+          <Route path="/eeett" component={Classtt} />
+          <Route path="/eeett"  />
         </div>
+         <div><Route path="/mechtt" component={Classtt} />
+        <Route path="/mechtt" />
+      </div>
 
         <div>
           <Route path="/cseAItt" component={Classtt} />
@@ -182,6 +189,10 @@ function App() {
         <div>
           <Route path="/cseCYStt" component={Classtt} />
           <Route path="/cseCYStt" component={cseCYStt} />
+        </div>
+        <div>
+          <Route path="/ece2tt" component={Classtt} />
+          <Route path="/ece2tt"  />
         </div>
         <div>
           <Route path="/mech2tt" component={Classtt} />

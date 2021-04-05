@@ -2,12 +2,12 @@ import React from "react";
 import "./Facultyinfo.css";
 import "./cse.css";
 
-function english({ englishrole, englishname, englishqualification, englishemail, englishcontact }) {
+function english({ englishpics,englishrole, englishname, englishqualification, englishemail, englishcontact }) {
     return (
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src="#" alt="photo" />
+                    <img src={englishpics} alt="photo" />
                 </div>
                 <div id="cseContent">
                     <div>

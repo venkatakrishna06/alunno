@@ -16,12 +16,13 @@
 
 }
    
-#factImg{
-    margin-left: 2%;
-    width: auto;
+Img{
+    margin-left: 4%;
+    width:60%;
+    
 }
 #cseContent{
-    margin-left: 25%;
+    margin-left: 2%;
 }
 
 h3{

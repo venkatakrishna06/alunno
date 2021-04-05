@@ -11,11 +11,11 @@ function Chemusestate() {
 
         {
             name: "Dr. Darbha Venkata Ravi Kumar", qualification: "Qualification : Ph.D, M.Sc.", role: "Assistant Professor,",
-            email: " Email : vrk_darbha@ch.amrita.edu", contact: ""
+            email: " Email : vrk_darbha@ch.amrita.edu", contact: "", img: "/chemfaculty/darbha-venkata-ravi.png"
         },
         {
             name: "Dr. C. Sarath Chandran", qualification: "Qualification : Ph.D", role: "Assistant Professor,",
-            email: "Email : c_sarathchandran@ch.amrita.edu", contact: ""
+            email: "Email : c_sarathchandran@ch.amrita.edu", contact: "", img: "/chemfaculty/sarath-chandran.png"
         }
 
 
@@ -26,6 +26,7 @@ function Chemusestate() {
             {
                 chemfaculty.map((chemuser) => (
                     <Chem
+                        chempics={chemuser.img}
                         chemname={chemuser.name}
                         chemrole={chemuser.role}
                         chemqualification={chemuser.qualification}

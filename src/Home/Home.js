@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Document/Logo.png";
+
 
 
 import { Layout, Menu } from 'antd';
@@ -33,7 +33,7 @@ class Home extends React.Component {
             left: 0,
           }}
         >
-          <div className="logo" src={Logo} />
+          <div className="logo"  />
           <Menu mode="inline" className="menu">
             <Menu.Item key="1" icon={<HomeTwoTone />}>
               <a href="/"> Home</a>

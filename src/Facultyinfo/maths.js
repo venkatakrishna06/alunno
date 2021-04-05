@@ -2,12 +2,12 @@ import React from "react";
 import "./Facultyinfo.css";
 import "./cse.css";
 
-function maths({ mathsrole, mathsname, mathsqualification, mathsemail, mathscontact }) {
+function maths({mathspics, mathsrole, mathsname, mathsqualification, mathsemail, mathscontact }) {
     return (
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src="#" alt="photo" />
+                    <img src={mathspics} alt="photo" />
                 </div>
                 <div id="cseContent">
                     <div>

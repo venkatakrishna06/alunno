@@ -4,13 +4,13 @@ import "./Facultyinfo.css";
 
 import "./cse.css";
 
-function cse({ cserole, csename, csequalification, cseemail, csecontact }) {
+function cse({ csepics,cserole, csename, csequalification, cseemail, csecontact }) {
   return (
     <div className="cse">
       <div id="infocontainer">
       <div id="cseContainer">
         <div id="factImg">
-          <img src="#" alt="photo" />
+            <img src={ csepics} alt="photo" />
         </div>
         <div id="cseContent">
           <div>

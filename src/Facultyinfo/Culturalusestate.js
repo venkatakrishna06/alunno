@@ -11,7 +11,7 @@ function Culturalusestate() {
 
         {
             name: "Dr. Shreehari V. Gokarnakar", qualification: "Qualification : Ph.D, MPhil", role: "Assistant Professor,",
-            email: " Email : vg_shreehari@ch.amrita.edu", contact: ""
+            email: " Email : vg_shreehari@ch.amrita.edu", contact: "",img:"/sreehari.png"
         },
         
 
@@ -23,6 +23,7 @@ function Culturalusestate() {
             {
                 culturalfaculty.map((culturaluser) => (
                     <Cultural
+                        culturalpics={culturaluser.img}
                         culturalname={culturaluser.name}
                         culturalrole={culturaluser.role}
                         culturalqualification={culturaluser.qualification}

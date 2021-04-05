@@ -2,12 +2,12 @@ import React from "react";
 import "./Facultyinfo.css";
 import "./cse.css";
 
-function ece({ ecerole, ecename, ecequalification, eceemail, ececontact }) {
+function ece({ ecepics,ecerole, ecename, ecequalification, eceemail, ececontact }) {
     return (
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src="#" alt="photo" />
+                    <img src={ ecepics} alt="photo" />
                 </div>
                 <div id="cseContent">
                     <div>

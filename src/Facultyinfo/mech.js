@@ -2,12 +2,12 @@ import React from "react";
 import "./Facultyinfo.css";
 import "./cse.css";
 
-function mech({ mechrole, mechname, mechqualification, mechemail, mechcontact }) {
+function mech({mechpics, mechrole, mechname, mechqualification, mechemail, mechcontact }) {
     return (
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src="#" alt="photo" />
+                    <img src={mechpics} alt="photo" />
                 </div>
                 <div id="cseContent">
                     <div>

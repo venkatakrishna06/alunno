@@ -2,12 +2,12 @@ import React from "react";
 import "./Facultyinfo.css";
 import "./cse.css";
 
-function cultural({ culturalrole, culturalname, culturalqualification, culturalemail, culturalcontact }) {
+function cultural({culturalpics, culturalrole, culturalname, culturalqualification, culturalemail, culturalcontact }) {
     return (
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src="#" alt="photo" />
+                    <img src={culturalpics} alt="photo" />
                 </div>
                 <div id="cseContent">
                     <div>

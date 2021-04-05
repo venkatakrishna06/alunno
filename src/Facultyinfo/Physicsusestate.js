@@ -11,11 +11,11 @@ function Physicsusestate() {
 
         {
             name: "Dr.Naresh Raghava", qualification: "Qualification : Ph.D, National University of Singapore", role: "Assistant Professor,",
-            email: " Email : g_nareshraghava@ch.amrita.edu", contact: ""
+            email: " Email : g_nareshraghava@ch.amrita.edu", contact: "", img:"/phyfaculty/naresh-raghava.png"
         },
         {
             name: "Dr. Neelam J. Upadhyay", qualification: "Qualification : Ph.D, National University of Singapore", role: "Assistant Professor,",
-            email: "Email : ju_neelam@ch.amrita.edu", contact: ""
+            email: "Email : ju_neelam@ch.amrita.edu", contact: "", img: "/phyfaculty/neelam.png"
         }
 
 
@@ -26,6 +26,7 @@ function Physicsusestate() {
             {
                 physicsfaculty.map((physicsuser) => (
                     <Physics
+                        physicspics={physicsuser.img}
                         physicsname={physicsuser.name}
                         physicsrole={physicsuser.role}
                         physicsqualification={physicsuser.qualification}

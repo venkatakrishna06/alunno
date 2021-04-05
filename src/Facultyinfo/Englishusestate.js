@@ -11,11 +11,11 @@ function Englishusestate() {
 
         {
             name: "Dr. Vinata Sai", qualification: "Qualification : Ph.D, MPhil.", role: "Assistant Professor,",
-            email: " Email : s_vinata@ch.amrita.edu", contact: ""
+            email: " Email : s_vinata@ch.amrita.edu", contact: "",img:"/engfaculty/vineta-sai.png"
         },
         {
             name: "J. S. Kavitha", qualification: "Qualification : MPhil, MSc", role: "Assistant Professor,",
-            email: "Email : js_kavitha@ch.amrita.edu", contact: ""
+            email: "Email : js_kavitha@ch.amrita.edu", contact: "", img: "/engfaculty/js-kavitha.png"
         }
        
 
@@ -26,6 +26,7 @@ function Englishusestate() {
             {
                 englishfaculty.map((englishuser) => (
                     <English
+                        englishpics ={englishuser.img}
                         englishname={englishuser.name}
                         englishrole={englishuser.role}
                         englishqualification={englishuser.qualification}

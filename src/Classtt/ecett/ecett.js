@@ -7,7 +7,7 @@ function ecett() {
         <div id="tt">
           <div id="bname">
             <span>BRANCH : ECE</span>
-            <span>SEM : II</span>
+            <span>SEM : IV</span>
           </div>
           <table id="Table">
             <thead>
