@@ -122,12 +122,10 @@ function cseAItt() {
               <td colSpan="2">
                 19PHY113<p>Dr.Gopalakrishnan E A</p>
               </td>
-              
+
             </tr>
           </tbody>
         </table>
-        
-        
       </div>
     </div>
   );

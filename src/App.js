@@ -12,7 +12,7 @@ import Examschedule from "./Examschedule/Examschedule";
 import Studymaterial from "./Studymaterial/Studymaterial";
 import Announcements from "./Announcements/Announcements";
 import Achievements from "./Achievements/Achievements";
-  
+
 
 //importing courses files
 
@@ -37,6 +37,10 @@ import Physicsusestate from "./Facultyinfo/Physicsusestate";
 import Chemusestate from "./Facultyinfo/Chemusestate";
 import Culturalusestate from "./Facultyinfo/Culturalusestate";
 
+////////
+import CseAData from "./Assignments/CseAData";
+
+
 //importing classtt js files
 import cseAtt from "./Classtt/cseAtt/cseAtt";
 import cseBtt from "./Classtt/cseBtt/cseBtt";
@@ -57,7 +61,8 @@ import ai2 from "./Studymaterial/ai2";
 
 
 //importing assignment files
-import cseAass from "./Assignments/cseAass";
+import CseAass from "./Assignments/CseAass";
+import CseBass from "./Assignments/CseBass";
 
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -76,7 +81,7 @@ function App() {
            
             <Route path="/Facultyinfo" exact component={Facultyinfo} />
             <Route path="/Facultyinfo" component={Facultyusestate} />
-            <Route path="/Facultyinfo" component={cse} />
+           
           </div>
           <div>
             
@@ -86,6 +91,7 @@ function App() {
           <div>
             <Route path="/Assignments" exact component={Sidebar} />
             <Route path="/Assignments" exact component={Assignments} />
+            <Route path="/Assignments"  exact component={CseAData} />
           </div>
           <div>
             <Route path="/Accalendar" exact component={Sidebar} />
@@ -93,9 +99,11 @@ function App() {
           </div><div>
             <Route path="/Examschedule" exact component={Sidebar} />
           <Route path="/Examschedule" exact component={Examschedule} />
-          </div><div>
+          </div>
+          <div>
             
             <Route path="/Studymaterial" exact component={Studymaterial} />
+            <Route path="/Studymaterial" exact component={cse4} />
     
 
           </div>
@@ -118,47 +126,47 @@ function App() {
         <div>
             <Route path="/cse" component={Facultyinfo} />
             <Route path="/cse" component={Facultyusestate} />
-            <Route path="/cse" component={cse} />
+           
         </div>
         <div>
             <Route path="/ece" component={Facultyinfo} />
             <Route path="/ece" component={Eceusestate} />
-            <Route path="/ece" component={ece} />
+            
         </div>
         <div>
             <Route path="/mech" component={Facultyinfo} />
             <Route path="/mech" component={Mechusestate} />
-            <Route path="/mech" component={mech} />
+           
         </div>
 
         <div>
             <Route path="/maths" component={Facultyinfo} />
             <Route path="/maths" component={Mathsusestate} />
-            <Route path="/maths" component={maths} />
+           
         </div>
 
         <div>
             <Route path="/english" component={Facultyinfo} />
             <Route path="/english" component={Englishusestate} />
-            <Route path="/english" component={english} />
+            
         </div>
 
         <div>
             <Route path="/physics" component={Facultyinfo} />
             <Route path="/physics" component={Physicsusestate} />
-            <Route path="/physics" component={physics} />
+           
         </div>
 
         <div>
             <Route path="/chem" component={Facultyinfo} />
             <Route path="/chem" component={Chemusestate} />
-            <Route path="/chem" component={chem} />
+            
         </div>
 
         <div>
             <Route path="/cultural" component={Facultyinfo} />
             <Route path="/cultural" component={Culturalusestate} />
-            <Route path="/cultural" component={cultural} />
+           
           </div>
           </div>
       </Router>
@@ -265,7 +273,19 @@ function App() {
       <Router>
        
         <div>
-          <Route path="/Assignments/cseAass" component={ cseAass}/>
+          <Route path="/Assignments/CseAass" component={Sidebar} />
+          <Route path="/Assignments/CseAass" component={Assignments} />
+          
+          <Route path="/Assignments/CseAass" component={CseAData} />
+    
+         
+        </div>
+        <div>
+          <Route path="/Assignments/CseBass" component={Sidebar} />
+          <Route path="/Assignments/CseBass" component={Assignments} />
+         
+          <Route path="/Assignments/CseBass" component={CseBass} />
+
         </div>
     </Router>
 

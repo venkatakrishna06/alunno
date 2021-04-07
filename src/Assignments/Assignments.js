@@ -3,17 +3,17 @@ import React from "react";
 function Assignments() {
     return (
         <div className-="Assignments">
-            <h1>Assignments </h1>
+            <h1>Assignments</h1>    
             <div id="classtt">
                 <div id="classttsideBox">
-                    <a href="/Assignments/cseAass">
+                    <a href="/Assignments/CseAass">
                         <div className="course">
                             <p>
                                 CSE-A (SEM 4)
                             </p>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="/Assignments/CseBass">
                         <div className="course">
                             <p>
                                 CSE-B (SEM 4)
