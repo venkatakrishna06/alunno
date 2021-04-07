@@ -7,7 +7,7 @@ function cultural({culturalpics, culturalrole, culturalname, culturalqualificati
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src={culturalpics} alt="photo" />
+                    <img src={culturalpics}  />
                 </div>
                 <div id="cseContent">
                     <div>

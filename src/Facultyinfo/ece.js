@@ -7,7 +7,7 @@ function ece({ ecepics,ecerole, ecename, ecequalification, eceemail, ececontact 
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src={ ecepics} alt="photo" />
+                    <img src={ ecepics} />
                 </div>
                 <div id="cseContent">
                     <div>

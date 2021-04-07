@@ -7,7 +7,7 @@ function chem({ chempics,chemrole, chemname, chemqualification, chememail, chemc
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src={chempics} alt="photo" />
+                    <img src={chempics} />
                 </div>
                 <div id="cseContent">
                     <div>

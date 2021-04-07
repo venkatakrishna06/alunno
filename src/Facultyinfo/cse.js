@@ -6,11 +6,13 @@ import "./cse.css";
 
 function cse({ csepics,cserole, csename, csequalification, cseemail, csecontact }) {
   return (
+    
     <div className="cse">
+      
       <div id="infocontainer">
       <div id="cseContainer">
         <div id="factImg">
-            <img src={ csepics} alt="photo" />
+            <img src={ csepics} />
         </div>
         <div id="cseContent">
           <div>

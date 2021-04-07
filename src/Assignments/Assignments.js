@@ -3,9 +3,10 @@ import React from "react";
 function Assignments() {
     return (
         <div className-="Assignments">
+            <h1>Assignments </h1>
             <div id="classtt">
                 <div id="classttsideBox">
-                    <a href="">
+                    <a href="/Assignments/cseAass">
                         <div className="course">
                             <p>
                                 CSE-A (SEM 4)

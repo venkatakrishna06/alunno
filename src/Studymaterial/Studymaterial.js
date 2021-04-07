@@ -5,6 +5,7 @@ function Studymaterial() {
     return (
         <div className="studymaterial">
             <Sidebar />
+            <h1>Study Material </h1>
             <div id="classtt">
             <div id="classttsideBox">
                 
@@ -35,23 +36,23 @@ function Studymaterial() {
                         <p>CSE-AI (SEM 2)</p>
                     </div>
                 </a>
-                <a href="cys2">
+                <a href="/studymaterial/cys2">
                     <div className="course">
                         <p>CSE-CYS (SEM 2)</p>
                     </div>
                 </a>
                 
-                    <a href="/studymaterials/cse2">
+                    <a href="/studymaterial/cse2">
                     <div className="course">
                         <p>CSE (SEM 2)</p>
                     </div>
                 </a>
-                    <a href="/studymaterials/ece2">
+                    <a href="/studymaterial/ece2">
                     <div className="course">
                         <p>ECE (SEM 2)</p>
                     </div>
                 </a>
-                    <a href="/studymaterials/mech2">
+                    <a href="/studymaterial/mech2">
                     <div className="course">
                         <p> MECH (SEM 2)</p>
                     </div>

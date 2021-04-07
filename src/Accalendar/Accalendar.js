@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Pdf from '../Document/Calender.pdf';
-import "./Accalender.css"
-class Accalender extends Component {
+import Pdf from '../Document/Calendar.pdf';
+import "./Accalendar.css"
+class Accalendar extends Component {
 
     render() {
         
 
         return (
-            <div className="Accalender">
+            <div className="Accalendar">
                 
                 <button><a  href={Pdf} target="_"> Click to Open </a></button>
             </div>
@@ -17,4 +17,4 @@ class Accalender extends Component {
 }
 
 
-export default Accalender;
+export default Accalendar;  

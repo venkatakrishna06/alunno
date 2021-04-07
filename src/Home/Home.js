@@ -45,7 +45,7 @@ class Home extends React.Component {
               <a href="/Classtt"> Class Timetable</a>
             </Menu.Item>
             <Menu.Item key="4" icon={<CalendarTwoTone />}>
-              <a href="/Accalender">Academic Calander</a>
+              <a href="/Accalendar">Academic Calandar</a>
             </Menu.Item>
             <Menu.Item key="5" icon={<QuestionCircleTwoTone />}>
               <a href="/Assignments">Assignments</a>

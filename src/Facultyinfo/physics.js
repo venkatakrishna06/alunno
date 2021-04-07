@@ -7,7 +7,7 @@ function physics({ physicspics,physicsrole, physicsname, physicsqualification, p
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src={physicspics} alt="photo" />
+                    <img src={physicspics}  />
                 </div>
                 <div id="cseContent">
                     <div>

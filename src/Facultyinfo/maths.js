@@ -7,7 +7,7 @@ function maths({mathspics, mathsrole, mathsname, mathsqualification, mathsemail,
         <div className="cse">
             <div id="cseContainer">
                 <div id="factImg">
-                    <img src={mathspics} alt="photo" />
+                    <img src={mathspics}  />
                 </div>
                 <div id="cseContent">
                     <div>

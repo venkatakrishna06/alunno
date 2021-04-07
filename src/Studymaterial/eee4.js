@@ -2,11 +2,11 @@
 import React from "react";
 import "./studymaterial.css";
 
-function ece4() {
+function eee4() {
     return (
-        <div className="ece4">
+        <div className="eee4">
             <div id="sm">
-                <h2>ECE SEM-4 TEXT BOOKS</h2>
+                <h2>EEE SEM-4 TEXT BOOKS</h2>
                 <table id="smtable">
                     <thead>
                         <tr>
@@ -17,48 +17,56 @@ function ece4() {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Integrated Circuits </td>
+                            <td>Probability and Statistics I</td>
                             <td colSpan="2">
-                                Design with Operational Amplifiers <br></br    >and Analog Integrated Circuits
+
+                                Introduction to probability
                             </td>
                             <td>
-                                <a href="https://3lib.net/book/601017/781374" target="-">
+                                <a href="https://3lib.net/book/1020533/bf8fa4" target="-">
                                     click here
                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <td>Signal Processing</td>
-                            <td colSpan="2">Digital Signal Processing,<br></br> A computer based approach</td>
+                            <td>Electrical Machines I</td>
+                            <td colSpan="2">
+                                Electric Machines
+                            </td>
                             <td>
-                                <a href="https://3lib.net/book/463584/9d5af9" target="-">
+                                <a href="https://3lib.net/book/2168296/0ae77b" target="-">
                                     click here
                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <td>OT</td>
-                            <td colSpan="2">
-                                Optimization Theory and Applications
-                            </td>
+                            <td>Signals and Systems </td>
+                            <td colSpan="2">Signals and Systems</td>
                             <td>
-                                <a href="https://3lib.net/book/808076/c23c71" target="-">
+                                <a href="https://3lib.net/book/746435/dbfe98" target="-">
                                     click here
                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <td>CT</td>
-                            <td colSpan="2">Fundamentals of Communication Systems</td>
-                            <td><a href="https://3lib.net/book/2628236/875c34" target="-">click here </a></td>
-                        </tr>
-                        <tr>
-                            <td>TLRS</td>
+                            <td>Energy Systems I</td>
                             <td colSpan="2">
-                                Field and Wave Electromagnetics
+                            Power System Analysis
                             </td>
                             <td>
-                                <a href="https://3lib.net/book/487156/8d6332" target="-">
+                                <a href="https://3lib.net/book/987270/088fcd" target="-">
+                                    click here
+                </a>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td>Control Systems</td>
+                            <td colSpan="2">
+                                Modern Control Systems
+                            </td>
+                            <td>
+                                <a href="https://3lib.net/book/538890/01f837" target="-">
                                     click here
                 </a>
                             </td>
@@ -69,4 +77,4 @@ function ece4() {
         </div>
     );
 }
-export default ece4;
+export default eee4;

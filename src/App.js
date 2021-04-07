@@ -7,12 +7,12 @@ import Sidebar from "./Sidebar";
 import Home from "./Home/Home";
 import Classtt from "./Classtt/Classtt";
 import Assignments from "./Assignments/Assignments";
-import Accalender from "./Accalender/Accalender";
+import Accalendar from "./Accalendar/Accalendar";
 import Examschedule from "./Examschedule/Examschedule";
 import Studymaterial from "./Studymaterial/Studymaterial";
 import Announcements from "./Announcements/Announcements";
 import Achievements from "./Achievements/Achievements";
-
+  
 
 //importing courses files
 
@@ -50,6 +50,14 @@ import mech2tt from "././Classtt/mech2tt/mech2tt";
 //importing studymaterial files
 import cse4 from "./Studymaterial/cse4";
 import ece4 from "./Studymaterial/ece4";
+import eee4 from "./Studymaterial/eee4";
+import cys2 from "./Studymaterial/cys2";
+import cse2 from "./Studymaterial/cse2";
+import ai2 from "./Studymaterial/ai2";
+
+
+//importing assignment files
+import cseAass from "./Assignments/cseAass";
 
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -65,13 +73,13 @@ function App() {
             <Route path="/" exact component={Home} />
           </div>
           <div>
-            <Route path="/Facultyinfo" exact component={Sidebar} />
+           
             <Route path="/Facultyinfo" exact component={Facultyinfo} />
             <Route path="/Facultyinfo" component={Facultyusestate} />
             <Route path="/Facultyinfo" component={cse} />
           </div>
           <div>
-            <Route path="/Classtt" exact component={Sidebar} />
+            
             <Route path="/Classtt" exact component={Classtt} />
             <Route path="/classtt" component={cseAtt} />
           </div>
@@ -80,14 +88,16 @@ function App() {
             <Route path="/Assignments" exact component={Assignments} />
           </div>
           <div>
-            <Route path="/Accalender" exact component={Sidebar} />
-            <Route path="/Accalender" exact component={Accalender} />
+            <Route path="/Accalendar" exact component={Sidebar} />
+            <Route path="/Accalendar" exact component={Accalendar} />
           </div><div>
             <Route path="/Examschedule" exact component={Sidebar} />
           <Route path="/Examschedule" exact component={Examschedule} />
           </div><div>
-            <Route path="/Studymaterial" exact component={Sidebar} />
+            
             <Route path="/Studymaterial" exact component={Studymaterial} />
+    
+
           </div>
           <div>
             <Route path="/Announcements" exact component={Sidebar} />
@@ -209,36 +219,33 @@ function App() {
         <div>
           <Route path="/studymaterial/cse4" component={Studymaterial} />
           <Route path="/studymaterial/cse4" component={cse4} />
-
         </div>
         <div>
           <Route path="/studymaterial/ece4" component={Studymaterial} />
           <Route path="/studymaterial/ece4" component={ece4} />
-
         </div>
-        <div>
+        <div> 
           <Route path="/studymaterial/mech4" component={Studymaterial} />
           <Route path="/studymaterial/mech4" component={cse4} />
-
         </div>
         <div>
           <Route path="/studymaterial/eee4" component={Studymaterial} />
-          <Route path="/studymaterial/eee4" component={cse4} />
+          <Route path="/studymaterial/eee4" component={eee4} />
 
         </div>
         <div>
           <Route path="/studymaterial/cys2" component={Studymaterial} />
-          <Route path="/studymaterial/cys2" component={cse4} />
+          <Route path="/studymaterial/cys2" component={cys2} />
 
         </div>
         <div>
           <Route path="/studymaterial/ai2" component={Studymaterial} />
-          <Route path="/studymaterial/ai2" component={cse4} />
+          <Route path="/studymaterial/ai2" component={ai2} />
 
         </div>
         <div>
           <Route path="/studymaterial/cse2" component={Studymaterial} />
-          <Route path="/studymaterial/cse2" component={cse4} />
+          <Route path="/studymaterial/cse2" component={cse2} />
 
         </div>
         <div>
@@ -252,6 +259,15 @@ function App() {
 
         </div>
       </Router>
+
+
+      {/* Assignments */}
+      <Router>
+       
+        <div>
+          <Route path="/Assignments/cseAass" component={ cseAass}/>
+        </div>
+    </Router>
 
     </div >
   );

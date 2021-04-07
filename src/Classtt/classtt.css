@@ -1,7 +1,7 @@
 #classtt{
     float: left;
     width: 50px;
-   margin-top: 4% !important;
+   margin-top: 0%;
     height:360px;
     margin-left: 14%;
     width: 210px;
@@ -11,8 +11,6 @@
 
 #classttsideBox a{
     text-decoration: none;
-   
-    
 }
 
 .course{

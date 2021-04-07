@@ -60,14 +60,10 @@ function Classtt() {
                     </a>
                     <a href="/ece2tt">
                         <div className="course">
-                            <p>ECE (SEM 2)</p>
+                            <p>ECE & CCE (SEM 2)</p>
                         </div>
                     </a>
-                    <a href="/cce2tt">
-                        <div className="course">
-                            <p>CCE (SEM 2)</p>
-                        </div>
-                    </a>
+                   
                     <a href="/mech2tt">
                         <div className="course">
                             <p> MECH (SEM 2)</p>

@@ -52,7 +52,7 @@ function cseBtt() {
                 <th>Wednesday</th>
 
                 <td>
-                  19CSE214<p></p>
+                  19CSE211<p></p>
                 </td>
                 <td>
                   19CSE212<p></p>
