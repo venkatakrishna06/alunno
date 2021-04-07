@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 
-function Facultyusestate() {
+function CseFaculty() {
     const [csefaculty, setCsefculty] = useState([
 
         // cse faculty
@@ -47,12 +47,12 @@ function Facultyusestate() {
             {
                 csefaculty.map((user) => (
                     <Cse
-                        csepics={user.img}
-                        csename={user.name}
-                        cserole={user.role}
-                        csequalification={user.qualification}
-                        cseemail={user.email}
-                        csecontact={user.contact}
+                        pics={user.img}
+                        name={user.name}
+                        role={user.role}
+                        qualification={user.qualification}
+                        email={user.email}
+                        contact={user.contact}
                     />
                 ))
             }
@@ -65,4 +65,4 @@ function Facultyusestate() {
     );
 
 }
-export default Facultyusestate;
+export default CseFaculty;

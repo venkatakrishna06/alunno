@@ -16,29 +16,18 @@ import Achievements from "./Achievements/Achievements";
 
 //importing courses files
 
-import cse from "./Facultyinfo/cse";
-import ece from "./Facultyinfo/ece";
-import mech from "./Facultyinfo/mech"
-import maths from "./Facultyinfo/maths";
-import english from "./Facultyinfo/english";
-import physics from "./Facultyinfo/physics";
-import chem from "./Facultyinfo/chem";
-import cultural from "./Facultyinfo/cultural";
 import Facultyinfo from "./Facultyinfo/Facultyinfo";
-
+import EceFaculty from "./Facultyinfo/EceFaculty";
+import MechFaculty from "./Facultyinfo/MechFaculty";
+import MathsFaculty from "./Facultyinfo/MathsFaculty";
+import EnglishFaculty from "./Facultyinfo/EnglishFaculty";
+import PhysicsFaculty from "./Facultyinfo/PhysicsFaculty";
+import ChemFaculty from "./Facultyinfo/ChemFaculty";
+import CulturalFaculty from "./Facultyinfo/CulturalFaculty";  
 
 //importing facultyusesate files
-import Facultyusestate from "./Facultyinfo/Facultyusestate";
-import Eceusestate from "./Facultyinfo/Eceusestate";
-import Mechusestate from "./Facultyinfo/Mechusestate";
-import Mathsusestate from "./Facultyinfo/Mathsusestate";
-import Englishusestate from "./Facultyinfo/Englishusestate";
-import Physicsusestate from "./Facultyinfo/Physicsusestate";
-import Chemusestate from "./Facultyinfo/Chemusestate";
-import Culturalusestate from "./Facultyinfo/Culturalusestate";
+import CseFaculty from "./Facultyinfo/CseFaculty";
 
-////////
-import CseAData from "./Assignments/CseAData";
 
 
 //importing classtt js files
@@ -61,11 +50,15 @@ import ai2 from "./Studymaterial/ai2";
 
 
 //importing assignment files
-import CseAass from "./Assignments/CseAass";
+import CseAData from "./Assignments/CseAData";
+
 import CseBass from "./Assignments/CseBass";
+import Ece4ass from "./Assignments/Ece4ass";
+
 
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -80,7 +73,7 @@ function App() {
           <div>
            
             <Route path="/Facultyinfo" exact component={Facultyinfo} />
-            <Route path="/Facultyinfo" component={Facultyusestate} />
+            <Route path="/Facultyinfo" component={CseFaculty} />
            
           </div>
           <div>
@@ -125,47 +118,47 @@ function App() {
        
         <div>
             <Route path="/cse" component={Facultyinfo} />
-            <Route path="/cse" component={Facultyusestate} />
+            <Route path="/cse" component={CseFaculty} />
            
         </div>
         <div>
             <Route path="/ece" component={Facultyinfo} />
-            <Route path="/ece" component={Eceusestate} />
+            <Route path="/ece" component={EceFaculty} />
             
         </div>
         <div>
             <Route path="/mech" component={Facultyinfo} />
-            <Route path="/mech" component={Mechusestate} />
+            <Route path="/mech" component={MechFaculty} />
            
         </div>
 
         <div>
             <Route path="/maths" component={Facultyinfo} />
-            <Route path="/maths" component={Mathsusestate} />
+            <Route path="/maths" component={MathsFaculty} />
            
         </div>
 
         <div>
             <Route path="/english" component={Facultyinfo} />
-            <Route path="/english" component={Englishusestate} />
+            <Route path="/english" component={EnglishFaculty} />
             
         </div>
 
         <div>
             <Route path="/physics" component={Facultyinfo} />
-            <Route path="/physics" component={Physicsusestate} />
+            <Route path="/physics" component={PhysicsFaculty} />
            
         </div>
 
         <div>
             <Route path="/chem" component={Facultyinfo} />
-            <Route path="/chem" component={Chemusestate} />
+            <Route path="/chem" component={ChemFaculty} />
             
         </div>
 
         <div>
             <Route path="/cultural" component={Facultyinfo} />
-            <Route path="/cultural" component={Culturalusestate} />
+            <Route path="/cultural" component={CulturalFaculty} />
            
           </div>
           </div>
@@ -285,6 +278,13 @@ function App() {
           <Route path="/Assignments/CseBass" component={Assignments} />
          
           <Route path="/Assignments/CseBass" component={CseBass} />
+
+        </div>
+        <div>
+          <Route path="/Assignments/Ece4ass" component={Sidebar} />
+          <Route path="/Assignments/Ece4ass" component={Assignments} />
+
+          <Route path="/Assignments/Ece4ass" component={Ece4ass} />
 
         </div>
     </Router>

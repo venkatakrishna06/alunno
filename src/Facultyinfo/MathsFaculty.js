@@ -1,9 +1,10 @@
-import Maths from "./maths";
+
 
 import React, { useState } from "react";
+import Cse from "./cse";
 
 
-function Mathsusestate() {
+function MathsFaculty() {
     const [mathsfaculty, setMathsfculty] = useState([
 
         // maths faculty
@@ -35,14 +36,14 @@ function Mathsusestate() {
     return (
         <div>
             {
-                mathsfaculty.map((mathsuser) => (
-                    <Maths
-                        mathspics={mathsuser.img}
-                        mathsname={mathsuser.name}
-                        mathsrole={mathsuser.role}
-                        mathsqualification={mathsuser.qualification}
-                        mathsemail={mathsuser.email}
-                        mathscontact={mathsuser.contact}
+                mathsfaculty.map((user) => (
+                    <Cse
+                        pics={user.img}
+                        name={user.name}
+                        role={user.role}
+                        qualification={user.qualification}
+                        email={user.email}
+                        contact={user.contact}
                     />
                 ))
             }
@@ -55,4 +56,4 @@ function Mathsusestate() {
     );
 
 }
-export default Mathsusestate;
+export default MathsFaculty;

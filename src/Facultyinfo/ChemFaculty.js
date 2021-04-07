@@ -1,9 +1,9 @@
-import Chem from "./chem";
+import Cse from "./cse";
 
 import React, { useState } from "react";
 
 
-function Chemusestate() {
+function ChemFaculty() {
     const [chemfaculty, setChemfaculty] = useState([
 
         // chem faculty
@@ -24,14 +24,14 @@ function Chemusestate() {
     return (
         <div>
             {
-                chemfaculty.map((chemuser) => (
-                    <Chem
-                        chempics={chemuser.img}
-                        chemname={chemuser.name}
-                        chemrole={chemuser.role}
-                        chemqualification={chemuser.qualification}
-                        chememail={chemuser.email}
-                        chemcontact={chemuser.contact}
+                chemfaculty.map((user) => (
+                    <Cse
+                        pics={user.img}
+                        name={user.name}
+                        role={user.role}
+                        qualification={user.qualification}
+                        email={user.email}
+                        contact={user.contact}
                     />
                 ))
             }
@@ -44,4 +44,4 @@ function Chemusestate() {
     );
 
 }
-export default Chemusestate;
+export default ChemFaculty;

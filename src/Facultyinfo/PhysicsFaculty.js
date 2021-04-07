@@ -1,9 +1,10 @@
-import Physics from "./physics";
+
 
 import React, { useState } from "react";
+import Cse from "./cse";
 
 
-function Physicsusestate() {
+function PhysicsFaculty() {
     const [physicsfaculty, setPhysicsfaculty] = useState([
 
         // physics faculty
@@ -24,14 +25,14 @@ function Physicsusestate() {
     return (
         <div>
             {
-                physicsfaculty.map((physicsuser) => (
-                    <Physics
-                        physicspics={physicsuser.img}
-                        physicsname={physicsuser.name}
-                        physicsrole={physicsuser.role}
-                        physicsqualification={physicsuser.qualification}
-                        physicsemail={physicsuser.email}
-                        physicscontact={physicsuser.contact}
+                physicsfaculty.map((user) => (
+                    <Cse
+                        pics={user.img}
+                        name={user.name}
+                        role={user.role}
+                        qualification={user.qualification}
+                        email={user.email}
+                    contact={user.contact}
                     />
                 ))
             }
@@ -44,4 +45,4 @@ function Physicsusestate() {
     );
 
 }
-export default Physicsusestate;
+export default PhysicsFaculty;

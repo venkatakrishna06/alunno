@@ -8,7 +8,9 @@ function Data() {
     const [data, setData] = useState([
 
 
-        { subjectName: "Subject", assName: "Assignment", submitThrough: "Submit Through ", dueDate: "Due Date" }
+        { subjectName: "Subject", assName: "Assignment", submitThrough: "Submit Through ", dueDate: "Due Date" },
+         { subjectName: "Subject", assName: "Assignment", submitThrough: "Submit Through ", dueDate: "Due Date" }
+
 
 
     ]);

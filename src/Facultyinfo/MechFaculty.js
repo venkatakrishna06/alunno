@@ -1,9 +1,10 @@
-import Mech from "./mech";
+
 
 import React, { useState } from "react";
+import Cse from "./cse";
 
 
-function Mechusestate() {
+function MechFaculty() {
     const [mechfaculty, setMechfculty] = useState([
 
         // MECH faculty
@@ -41,14 +42,14 @@ function Mechusestate() {
     return (
         <div>
             {
-                mechfaculty.map((mechuser) => (
-                    <Mech
-                        mechpics={mechuser.img}
-                        mechname={mechuser.name}
-                        mechrole={mechuser.role}
-                        mechqualification={mechuser.qualification}
-                        mechemail={mechuser.email}
-                        mechcontact={mechuser.contact}
+                mechfaculty.map((user) => (
+                    <Cse
+                        pics={user.img}
+                        name={user.name}
+                        role={user.role}
+                        qualification={user.qualification}
+                        email={user.email}
+                        contact={user.contact}
                     />
                 ))
             }
@@ -61,4 +62,4 @@ function Mechusestate() {
     );
 
 }
-export default Mechusestate;
+export default MechFaculty;

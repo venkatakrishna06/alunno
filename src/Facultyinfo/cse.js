@@ -4,7 +4,7 @@ import "./Facultyinfo.css";
 
 import "./cse.css";
 
-function cse({ csepics,cserole, csename, csequalification, cseemail, csecontact }) {
+function cse({ pics,role, name, qualification, email, contact }) {
   return (
     
     <div className="cse">
@@ -12,21 +12,21 @@ function cse({ csepics,cserole, csename, csequalification, cseemail, csecontact 
       <div id="infocontainer">
       <div id="cseContainer">
         <div id="factImg">
-            <img src={ csepics} />
+            <img src={ pics} />
         </div>
         <div id="cseContent">
           <div>
-            <h3>{csename}</h3>
-            <p>{cserole}</p>
-            <p>{csequalification}</p>
+            <h3>{name}</h3>
+            <p>{role}</p>
+            <p>{qualification}</p>
           </div>
         </div>
         <div id="cseDetails">
           <div className="email">
-            <p className="cseec">{cseemail}</p>
+            <p className="cseec">{email}</p>
           </div>
           <div className="email">
-            <p className="cseec">{csecontact}</p>
+            <p className="cseec">{contact}</p>
           </div>
         </div>
           </div>

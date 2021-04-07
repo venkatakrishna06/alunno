@@ -1,9 +1,9 @@
-import Ece from "./ece";
+import Cse from "./cse";
 
 import React, { useState } from "react";
 
 
-function Eceusestate() {
+function EceFaculty() {
     const [ecefaculty, setEcefculty] = useState([
 
          // ECE faculty
@@ -41,14 +41,14 @@ function Eceusestate() {
     return (
         <div>
             {
-                ecefaculty.map((eceuser) => (
-                    <Ece
-                        ecepics={eceuser.img}
-                        ecename={eceuser.name}
-                        ecerole={eceuser.role}
-                        ecequalification={eceuser.qualification}
-                        eceemail={eceuser.email}
-                        ececontact={eceuser.contact}
+                ecefaculty.map((user) => (
+                    <Cse
+                        pics={user.img}
+                        name={user.name}
+                        role={user.role}
+                        qualification={user.qualification}
+                    email={user.email}
+                        contact={user.contact}
                     />
                 ))
             }
@@ -61,4 +61,4 @@ function Eceusestate() {
     );
 
 }
-export default Eceusestate;
+export default EceFaculty;

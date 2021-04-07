@@ -1,9 +1,9 @@
-import English from "./english";
 
 import React, { useState } from "react";
+import Cse from "./cse";
 
 
-function Englishusestate() {
+function EnglishFaculty() {
     const [englishfaculty, setEnglishfaculty] = useState([
 
          // English faculty
@@ -24,14 +24,14 @@ function Englishusestate() {
     return (
         <div>
             {
-                englishfaculty.map((englishuser) => (
-                    <English
-                        englishpics ={englishuser.img}
-                        englishname={englishuser.name}
-                        englishrole={englishuser.role}
-                        englishqualification={englishuser.qualification}
-                        englishemail={englishuser.email}
-                        englishcontact={englishuser.contact}
+                englishfaculty.map((user) => (
+                    <Cse
+                        pics ={user.img}
+                        name={user.name}
+                        role={user.role}
+                        qualification={user.qualification}
+                        email={user.email}
+                        contact={user.contact}
                     />
                 ))
             }
@@ -44,4 +44,4 @@ function Englishusestate() {
     );
 
 }
-export default Englishusestate;
+export default EnglishFaculty;
