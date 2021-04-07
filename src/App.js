@@ -17,16 +17,19 @@ import Achievements from "./Achievements/Achievements";
 //importing courses files
 
 import Facultyinfo from "./Facultyinfo/Facultyinfo";
+
+
+//importing facultyusesate files
+import CseFaculty from "./Facultyinfo/CseFaculty";
 import EceFaculty from "./Facultyinfo/EceFaculty";
 import MechFaculty from "./Facultyinfo/MechFaculty";
 import MathsFaculty from "./Facultyinfo/MathsFaculty";
 import EnglishFaculty from "./Facultyinfo/EnglishFaculty";
 import PhysicsFaculty from "./Facultyinfo/PhysicsFaculty";
 import ChemFaculty from "./Facultyinfo/ChemFaculty";
-import CulturalFaculty from "./Facultyinfo/CulturalFaculty";  
+import CulturalFaculty from "./Facultyinfo/CulturalFaculty";
 
-//importing facultyusesate files
-import CseFaculty from "./Facultyinfo/CseFaculty";
+
 
 
 
@@ -53,9 +56,7 @@ import ai2 from "./Studymaterial/ai2";
 
 
 
-
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
 
 function App() {
   return (
@@ -81,7 +82,7 @@ function App() {
           <div>
             <Route path="/Assignments" exact component={Sidebar} />
             <Route path="/Assignments" exact component={Assignments} />
-          
+        
           </div>
           <div>
             <Route path="/Accalendar" exact component={Sidebar} />
@@ -260,32 +261,7 @@ function App() {
 
 
       {/* Assignments */}
-      {/* <Router>
-       
-        <div>
-          <Route path="/Assignments/CseAass" component={Sidebar} />
-          <Route path="/Assignments/CseAass" component={Assignments} />
-          
-          <Route path="/Assignments/CseAass" component={CseAData} />
-    
-         
-        </div>
-        <div>
-          <Route path="/Assignments/CseBass" component={Sidebar} />
-          <Route path="/Assignments/CseBass" component={Assignments} />
-         
-          <Route path="/Assignments/CseBass" component={CseBass} />
-
-        </div>
-        <div>
-          <Route path="/Assignments/Ece4ass" component={Sidebar} />
-          <Route path="/Assignments/Ece4ass" component={Assignments} />
-
-          <Route path="/Assignments/Ece4ass" component={Ece4ass} />
-
-        </div>
-    </Router> */}
-
+     
     </div >
   );
 }

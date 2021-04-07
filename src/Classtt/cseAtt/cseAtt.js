@@ -85,7 +85,7 @@ function cseAtt() {
               <td>19AVP211</td>
               <td></td>
               <td>
-                19CSE214 (3.45PM-500PM)<p>Dr A.G.Sridevi</p>
+                19CSE214 (3.45PM-500PM)<p></p>
               </td>
             </tr>
             <tr>
