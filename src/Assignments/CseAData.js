@@ -1,7 +1,7 @@
 
 
 import React, { useState } from "react";
-import CseAass from "./CseAass";
+import CseAass from "../Assignments/CseAass";
 
 
 function Data() {
