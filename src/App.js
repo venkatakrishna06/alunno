@@ -50,10 +50,7 @@ import ai2 from "./Studymaterial/ai2";
 
 
 //importing assignment files
-import CseAData from "./Assignments/CseAData";
 
-import CseBass from "./Assignments/CseBass";
-import Ece4ass from "./Assignments/Ece4ass";
 
 
 
@@ -84,7 +81,7 @@ function App() {
           <div>
             <Route path="/Assignments" exact component={Sidebar} />
             <Route path="/Assignments" exact component={Assignments} />
-            <Route path="/Assignments"  exact component={CseAData} />
+          
           </div>
           <div>
             <Route path="/Accalendar" exact component={Sidebar} />
@@ -263,7 +260,7 @@ function App() {
 
 
       {/* Assignments */}
-      <Router>
+      {/* <Router>
        
         <div>
           <Route path="/Assignments/CseAass" component={Sidebar} />
@@ -287,7 +284,7 @@ function App() {
           <Route path="/Assignments/Ece4ass" component={Ece4ass} />
 
         </div>
-    </Router>
+    </Router> */}
 
     </div >
   );
