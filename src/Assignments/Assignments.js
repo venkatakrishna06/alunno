@@ -20,7 +20,7 @@ function Assignments() {
                             </p>
                         </div>
                     </a>
-                    <a href="/Assignments/ECe4ass" >
+                    <a href="/Assignments/Ece4ass" >
                         <div className="course">
                             <p>ECE (SEM 4)</p>
                         </div>

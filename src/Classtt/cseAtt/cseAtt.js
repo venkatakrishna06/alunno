@@ -24,26 +24,26 @@ function cseAtt() {
             <tr>
               <th>Monday</th>
               <td>
-                19CSE213<p></p>
+                <a href="https://bit.ly/3d5oULB"> OS</a><p>Dr. A. Padmavathi</p>
               </td>
               <td>
-                19CSE211<p></p>
+                <a href="https://bit.ly/3wJ2uHw">COA</a><p>Karpagam M.</p>
               </td>
 
               <td colspan="2">
-                19CSE213 LAB<p></p>
+                <a href="https://bit.ly/2PQwOQ2">OS LAB</a><p></p>
               </td>
-              <td>19ENG230 (3.45PM-5.00PM)</td>
+              <td> <a href="">BC (3.45PM-5.00PM)</a>  </td>
             </tr>
             <tr>
               <th>Tuesday</th>
-              <td colspan="2">19SSk211LAB</td>
+              <td colspan="2"><a href="">SOFT SKILLS</a></td>
 
               <td>
-                19MAT205<p></p>
+                <a href="">PROBABILITY</a><p>Mr.Tharasi Dilleswar Rao</p>
               </td>
               <td>
-                19CSE214<p></p>
+                <a href="">TOC</a><p>Dr. Sreedevi A. G.</p>
               </td>
               <td></td>
             </tr>
@@ -51,51 +51,51 @@ function cseAtt() {
               <th>Wednesday</th>
 
               <td>
-                19CSE211<p></p>
+                <a href="https://bit.ly/3wJ2uHw" target="-"> COA</a><p>Karpagam M.</p>
               </td>
               <td>
-                19CSE212<p></p>
+                <a href="">DSA</a><p>Dr. S. Sathya</p>
               </td>
-              <td>19CSE213</td>
-              <td colSpan="2">19CSE211 LAB </td>
-              
+              <td><a href="https://bit.ly/3d5oULB">OS</a><p>Dr. A. Padmavathi</p></td>
+              <td colSpan="2">COA LAB </td>
+
             </tr>
             <tr>
               <th>Thursday</th>
 
               <td>
-                19CSE214 <p></p>
+                <a href="">TOC</a><p>Dr. Sreedevi A. G.</p>
               </td>
               <td>
-                19CSE212 <p></p>
+                <a href="">DSA</a><p>Dr. S. Sathya</p>
               </td>
 
-              <td> 19CSE212 LAB (1.30PM-3.30PM)</td>
-              <td colSpan="2">19ENG230 (3.45PM-5.00PM)</td>
-              
+              <td> <a href="">DSA LAB</a><p></p> (1.30PM-3.30PM)</td>
+              <td colSpan="2"><a href="">BC</a> (3.45PM-5.00PM)</td>
+
             </tr>
             <tr>
               <th>Friday</th>
 
               <td id="elective"> Free Elective</td>
               <td>
-                19MAT205<p></p>
+                <a href="">PROBABILITY</a><p>Mr.Tharasi Dilleswar Rao</p>
               </td>
 
-              <td>19AVP211</td>
+              <td><a href="">CULTURAL </a><p>Dr. Shreehari V. Gokarnakar</p></td>
               <td></td>
               <td>
-                19CSE214 (3.45PM-500PM)<p></p>
+                <a href="">TOC (3.45PM-500PM)</a><p>Dr. Sreedevi A. G.</p> 
               </td>
             </tr>
             <tr>
               <th>Saturday*</th>
 
               <td>
-                19MNG300<p></p>
+                <a href="">DISASTER MANAGMENT</a><p>S. Shriram</p>
               </td>
               <td>
-                19MAT205<p></p>
+                <a href="">PROBABILITY</a><p>Mr.Tharasi Dilleswar Rao</p>
               </td>
               <td></td>
               <td></td>

@@ -25,14 +25,14 @@ function cseBtt() {
               <tr>
                 <th>Monday</th>
                 <td>
-                  19CSE213<p></p>
+                  <a href="https://bit.ly/3d5oULB"> OS</a><p>Dr. A. Padmavathi</p>
                 </td>
                 <td>
-                  19CSE211<p></p>
+                  <a href="https://bit.ly/3wJ2uHw">COA</a><p>Karpagam M.</p>
                 </td>
 
                 <td colspan="2">
-                  19CSE211 LAB<p></p>
+                  COA LAB<p></p>
                 </td>
                 <td>19ENG230 (3.45PM-5.00PM)</td>
               </tr>
@@ -52,12 +52,12 @@ function cseBtt() {
                 <th>Wednesday</th>
 
                 <td>
-                  19CSE211<p></p>
+                  <a href="https://bit.ly/3wJ2uHw">COA</a><p>Karpagam M.</p>
                 </td>
                 <td>
                   19CSE212<p></p>
                 </td>
-                <td>19CSE213</td>
+                <td><a href="https://bit.ly/3d5oULB"> OS</a><p>Dr. A. Padmavathi</p></td>
                 <td>19AVP211</td>
                 <td></td>
               </tr>
@@ -71,7 +71,7 @@ function cseBtt() {
                   19CSE212 <p></p>
                 </td>
 
-                <td> 19CSE213 LAB (1.30PM-3.30PM)</td>
+                <td> OS LAB (1.30PM-3.30PM)</td>
                 <td>19ENG230 (3.45PM-5.00PM)</td>
                 <td></td>
               </tr>

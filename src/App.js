@@ -50,6 +50,8 @@ import eee4 from "./Studymaterial/eee4";
 import cys2 from "./Studymaterial/cys2";
 import cse2 from "./Studymaterial/cse2";
 import ai2 from "./Studymaterial/ai2";
+import mech4 from "./Studymaterial/mech4";
+import mech2 from "./Studymaterial/mech2";
 
 
 //importing assignment files
@@ -225,7 +227,7 @@ function App() {
         </div>
         <div> 
           <Route path="/studymaterial/mech4" component={Studymaterial} />
-          <Route path="/studymaterial/mech4" component={cse4} />
+          <Route path="/studymaterial/mech4" component={mech4} />
         </div>
         <div>
           <Route path="/studymaterial/eee4" component={Studymaterial} />
@@ -254,7 +256,7 @@ function App() {
 
         <div>
           <Route path="/studymaterial/mech2" component={Studymaterial} />
-          <Route path="/studymaterial/mech2" component={cse4} />
+          <Route path="/studymaterial/mech2" component={mech2} />
 
         </div>
       </Router>

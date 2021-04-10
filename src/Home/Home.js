@@ -33,7 +33,7 @@ class Home extends React.Component {
             left: 0,
           }}
         >
-          <div className="logo"  />
+          <div className="logo"><img src="/amritaLogo.png" /></div>
           <Menu mode="inline" className="menu">
             <Menu.Item key="1" icon={<HomeTwoTone />}>
               <a href="/"> Home</a>

@@ -1,9 +1,15 @@
 @import '~antd/dist/antd.css';
 
 .logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(255, 255, 255, 0.2);
+  height: 30px;
+  margin: 17px;
+  
+  
+}
+.logo img{
+  width: 100%;
+  margin-left: 0px;
+  
 }
 .site-layout .site-layout-background {
   background: #fff;
@@ -11,14 +17,7 @@
   [data-theme="dark"] .site-layout .site-layout-background {
     background: #141414;
   }
-  #imgBox{
-    border: 1px ridge #adb5bd;
-    width: 98%;
-    height: 250px;
-    margin-left: 1%;
-    margin-top: 6%;
-    
-}
+ 
 .sider{
   background-color:#023047;
 }
